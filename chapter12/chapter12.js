@@ -51,7 +51,7 @@ function stopTrain() {
     todo: Test whether the train is already crashed. If
     not, stop the train.
     */
-    if (trainPosition < 260) {
+    if (trainPosition < 400) {
         clearInterval(animation);
     }
 }
@@ -60,7 +60,7 @@ function checkPosition(currentPosition) {
     todo: Check the train's current position and crash it
     if it's at the end of the line.
     */
-    if (currentPosition === 260) {
+    if (currentPosition === 400) {
         alert(" You Crashed! ");
         alert("Reload the page to try again")
         clearInterval(animation);

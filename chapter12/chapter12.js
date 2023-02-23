@@ -18,8 +18,8 @@ todo: Listen for click events on the stop button element
 and call a function called stopTrain when they
 happen.
 */
-var stopTrain = document.getElementById("stopButton");
-stopTrain.addEventListener("click", stopTrain);
+var stopT = document.getElementById("stopButton");
+stopT.addEventListener("click", stopTrain);
 
 function speedUp() {
     if (trainSpeed > 10) {

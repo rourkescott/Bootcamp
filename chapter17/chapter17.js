@@ -22,4 +22,4 @@ function generateWeather() {
     }
 }
 
-
+alert("Reload the page to produce new weather conditions");
